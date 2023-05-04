@@ -1,0 +1,513 @@
+{
+    "options1":[
+        {"name":"Properties about someone",
+        "options2":[
+            {"name":"Email",
+             "options":["contains","doesn't contain","starts with","doesn't start with","is set","is not set"],
+             "inputType":"email"
+        },
+        {
+            "name":"Phone Number",
+            "options":["contains","doesn't contain","starts with","doesn't start with","is set","is not set"],
+            "inputType":"tel"
+        },
+        {
+            "name":"First name",
+            "options":["contains","doesn't contain","starts with","doesn't start with","is set","is not set"],
+            "inputType":"text"
+        },
+        {
+            "name":"Last name",
+            "options":["contains","doesn't contain","starts with","doesn't start with","is set","is not set"],
+            "inputType":"text"
+        },
+        {
+            "name":"Created Date",
+            "options":["equals","not equal to","before","after","within last","not within last"],
+            "inputType":"date"
+        },
+        {
+            "name":"Country",
+            "options":["includes","does not include"],
+            "inputType":"text"
+        },
+        {
+            "name":"Province",
+            "options":["includes","does not include"],
+            "inputType":"text"
+        },
+        {
+            "name":"Date Of Birth",
+            "options":["equals","not equal to","before","after"],
+            "inputType":"date"
+        },
+        {
+            "name":"Is SMS Subscriber",
+            "options":["includes","does not include"],
+            "inputType":"TRUE"
+        },
+        {
+            "name":"Is Email Subscriber",
+            "options":["includes","does not include"],
+            "inputType":"TRUE"
+        },
+        {
+            "name":"Is Push Subscriber",
+            "options":["includes","does not include"],
+            "inputType":"TRUE"
+        },
+        {
+            "name":"Is Mobile Push Subscriber",
+            "options":["includes","does not include"],
+            "inputType":"TRUE"
+        },
+        {
+            "name":"Shopify Tags",
+            "options":["includes","does not include"]
+        },
+        {
+            "name":"First Order Date",
+            "options":["equals","not equal to","before","after","within last","not within last"],
+            "inputType":"date"
+        },
+        {
+            "name":"Last Order Date",
+            "options":["equals","not equal to","before","after","within last","not within last"],
+            "inputType":"date"
+        },
+        {
+            "name":"Num Of Orders",
+            "options":["greater than","less than","equals","not equal to","is atleast","is atmost","is zero"],
+            "inputType":"number"
+        },
+        {
+            "name":"Total Money Spent",
+            "options":["greater than","less than","equals","not equal to","is atleast","is atmost","is zero"],
+            "inputType":"number"
+        },
+        {
+            "name":"Average Order Value",
+            "options":["greater than","less than","equals","not equal to","is atleast","is atmost","is zero"],
+            "inputType":"number"
+        },
+        {
+            "name":"Has Purchased",
+            "options":["Equals","not equal to"],
+            "inputType":"TRUE"
+        },
+        {
+            "name":"First Active",
+            "options":["equals","not equal to","before","after","within last","not within last"],
+            "inputType":"date"
+        },
+        {
+            "name":"Last Active",
+            "options":["equals","not equal to","before","after","within last","not within last"],
+            "inputType":"date"
+        },
+        {
+            "name":"Rfm Segment",
+            "options":["includes","does not include"],
+            "inputType":"text"
+        },
+        {
+            "name":"First Party Data",
+            "options":["contains","doesn't contain","starts with","doesn't start with","is set","is not set"],
+            "inputType":"tel"
+        }
+        
+        
+        
+        ]},
+        {
+            "name":"User is in List where",
+            "options2":[{"name":"List","options":["includes","does not include"]}]
+        },
+        {
+            "name":"What someone has done/not done",
+            "options2":[
+                {
+                    "name":"Cancelled Order",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Cancelled Order Value",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Checkout Started",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Checkout Started Value",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Delivered Order",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Fulfillment Created",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Fulfilled Order",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Fulfilled Order Value",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Order In Transit",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Placed Order",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Revenue",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Ordered Product",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Back In Stock",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Ordered Product Value",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Clicked Email",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Opened Email",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Received Email",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Email Sent",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Bounced Sent",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Marked Email as Spam",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Unsubscribed",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Clicked Push",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Closed Push",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Clicked SMS",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Sent SMS",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Bounced SMS",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Unsubscribed from SMS",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Sent WhatsApp",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Clicked WhatsApp",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Unsubscribed from WhatsApp",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Active On Site",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Added To Cart",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Viewed Product",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Address Added Gokwik",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Added Gokwik",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Payment Complete Gokwik",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Payment Method Added Gokwik",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"PinCode Added Gokwik",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Address Added Gokwik",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Judge.me review created",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile User Registered",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Address Added Gokwik",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile User Logged In",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile User Log In",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile User Logged Out",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile App Install",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile App About To Uninstall",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile App Uninstalled",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile App Updated",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Page Viewed",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Viewed Collection",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Viewed Product",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Product Added To Cart",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Product Removed From Cart",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Product Updated To Cart",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Product Added To Wishlist",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Product Moved To Cart",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Added To Cart",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Clear Cart",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Added Payment Info",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Added Shipping Info",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile App Background",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile App Foreground",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile App Killed",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile App Launched",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Checkout Started",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Payment Cancelled",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Payment Failed",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Payment Started",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Mobile Viewed Cart",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Simpl Checkout Started",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Simpl Login Completed",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Simpl Address Submitted",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Simpl Payment Method Selected",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                },
+                {
+                    "name":"Simpl Order Completed",
+                    "options3":["atleast once","zero times","greater than","less than","equals","is atleast","is at most"],
+                    "options4":["over all time","within last","not within last","before","after","between date"]
+                }
+            ]
+        }],
+    "ShopifyTags":[
+        { "label": "newsletter", "value": "newsletter" },
+        { "label": "social", "value": "social" },
+        { "label": "prospect", "value": "prospect"},
+        { "label": "Fraud", "value": "Fraud"},
+        { "label": "Inbox online store chat", "value": "Inbox online store chat"}
+      ]
+}
